@@ -2,14 +2,11 @@
 :icons: font
 :source-highlighter: highlightjs
 
-
-
 [.centered]
-== Enterprise Architecture on the Wire
-image::images/waltz_badge_negative_bw_300px.png[width=128]
+== !
+image::images/logo.png[xwidth=128]
 
-
-
+ 
 == Topics
 * Part 1: Waltz overview
 * Part 2: Open Source challenges / rewards
@@ -21,8 +18,6 @@ image::images/waltz_badge_negative_bw_300px.png[width=128]
 * Waltz: an Enterprise Information System
 * Approx. 6 yrs old (started as pure OSS)
 * 3-4 devs + 1 analyst
-[%step]
-** incl. NWM 
 * Transitioned to FINOS earlier this year
 * Several thousand users in DB
 * Gaining users in other financial institutions and other industries
@@ -48,11 +43,10 @@ image::images/db-press.png[width=768]
 image::images/finos-press.png[width=768]
 
 
-
 == Overview
 [%step]
-* Catalogue of the enterprise technical portfolio / landscape
-* Mapping current state and increasingly looking towards future state
+* Help large orgs to understand their technical landscape
+* What things are, what they do, how they connect, who works on them and how they are changing
 * Widely used by diverse set of users
 
 [.notes]
@@ -60,20 +54,51 @@ image::images/finos-press.png[width=768]
 * historically current state focus
 * future state flows, app functions, change impact
 * PM's, analysts, devs, execs
+
+--
+
+
+=== Approach
+_An open approach to enterprise architecture_
+
+[%step]
+* Widespread frustration with centralised architecture
+** Incomplete, disjoint, adhoc datasets 
+* Waltz embraces a collaborative model 
+* Promote standardisation
+* Perhaps allow cross bank standards
+
+
+[background-color="#222"]
+== Uses
+
+[%step]
+* App rationalisation, function decomms, migrations, roadmaps
+* Data architecture: lineage (BCBS), auth sources
+* (Regulatory) Compliance
+** GDPR, Records Management, Legal Holds
+* SDLC & KPI's / KRI's
+** Platform adoption, standard adherence
+
+[.notes]
+--
+* Auth sources / Right-Sourcing
+* Regulators wanting evidence understanding our _entire_ estate
+* SDLC - Waltz part of the go/no-go prod checks (no flows?, no bookmarks?, no attestations?)
+* Core platform simplification / reducing complexity, enabled by common taxonomies
 --
 
 
 
 [background-color="#222"]
-=== Opinionated
+=== Model
 [%step]
 * Strict data model
 [%step]
 ** Applications, Taxonomies, Data flows & Data types
 ** Organisational Units, People, Change Initiatives & Roadmaps
 ** Servers, Databases, Software & Licenses
-* As _opposed_ to weaker schemas:
-    ** Entity / Attribute / Relationship
+* Opinionated model allows us to do more 'out of the box'
 
 [.notes]
 --
@@ -95,8 +120,8 @@ image::images/finos-press.png[width=768]
 
 
 [background-color="#222"]
-=== Aggregate views
-* Dynamic groups based on traits
+=== Grouping
+* Dynamic aggregation based on traits
 * Ad hoc group creation
 * Automated groups
 
@@ -136,36 +161,6 @@ image::images/diag.gif[width=512]
 --
 
 
-== Approach
-Embodies an open approach to enterprise architecture
-
-[%step]
-* Permissive 
-** Better to have many eyes / crowd sourced data than to have a few guardians
-* Promote standardisation
-** Perhaps allow cross bank standards
-
-
-[background-color="#222"]
-=== Uses
-
-[%step]
-* App rationalisation, function decomms, migrations, roadmaps
-* Data architecture: lineage (BCBS), auth sources
-* (Regulatory) Compliance
-** GDPR, Records Management, Legal Holds
-* SDLC & KPI's / KRI's
-** Platform adoption, standard adherence
-
-[.notes]
---
-* Auth sources / Right-Sourcing
-* Regulators wanting evidence understanding our _entire_ estate
-* SDLC - Waltz part of the go/no-go prod checks (no flows?, no bookmarks?, no attestations?)
-* Core platform simplification / reducing complexity, enabled by common taxonomies
---
-
-
 == Open Source
 Open Source & the Enterprise
 
@@ -182,7 +177,7 @@ IMPORTANT: _Observations are mine, **not** those of my client_
 
 === Challenges
 [%step]
-* Test data is hard!
+* Realistic sample data difficult to produce
 * Need to be v. careful with commits 
 ** Extra review step for data leakage concerns
 * IP concerns extend to design docs and issue descriptions
@@ -198,7 +193,7 @@ IMPORTANT: _Observations are mine, **not** those of my client_
 ** Barrier to adoption by smaller orgs
 
 
-=== Support
+=== Leverage the OSS Ecosystem
 [%step]
 * Abundance of very good project support:
 ** Building, Testing
@@ -212,5 +207,14 @@ IMPORTANT: _Observations are mine, **not** those of my client_
 * distirbuted dev
 ** from single dev, to team, to multiple locs, to multiple companies, to everyone wfh!
 --
+
+== Contributing
+
+[%step]
+- Contributions welcome!
+- https://github.com/finos/waltz 
+  - Good starting issues tagged with the `Small Change` label
+- Communication primarily through GH Issues
+
 
 == Thanks for listening
