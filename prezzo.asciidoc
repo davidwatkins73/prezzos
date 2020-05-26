@@ -7,12 +7,14 @@
 image::images/logo.png[xwidth=128]
 
  
+[background-color="#140d06"]
 == Topics
 * Part 1: Waltz overview
 * Part 2: Open Source challenges / rewards
 
 
 
+[background-color="#050712"]
 == Background
 [%step]
 * Waltz: an Enterprise Information System
@@ -31,18 +33,22 @@ image::images/logo.png[xwidth=128]
 --
 
 
+[background-color="#050712"]
 === NWM Press Release
 image::images/nwm-press.png[width=768]
 
 
+[background-color="#050712"]
 === Deutsche Bank Press Release
 image::images/db-press.png[width=768]
 
 
+[background-color="#050712"]
 === FINOS Press Release
 image::images/finos-press.png[width=768]
 
 
+[background-color="#030a08"]
 == Overview
 [%step]
 * Help large orgs to understand their technical landscape
@@ -58,6 +64,7 @@ image::images/finos-press.png[width=768]
 --
 
 
+[background-color="#030a08"]
 === Approach
 _An open approach to enterprise architecture_
 
@@ -213,7 +220,7 @@ IMPORTANT: _Observations are mine, **not** those of my client_
 [%step]
 - Contributions welcome!
 - https://github.com/finos/waltz 
-  - Good starting issues tagged with the `Small Change` label
+  - Good first issues tagged `Small Change` icon:tags[]
 - Communication primarily through GH Issues
 
 
