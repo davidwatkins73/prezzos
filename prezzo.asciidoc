@@ -24,14 +24,6 @@ image::images/logo.png[xwidth=128]
 * Several thousand users in DB
 * Gaining users in other financial institutions and other industries
 
-[.notes]
---
-* Inspired by a tool developed in RBC which proved the concept/gap
-* Currently _Incubating_ in FINOS, undergoing _Activation_
-* 5K apps registered
-* Tens of thousands of flows
---
-
 
 [background-color="#050712"]
 === NWM Press Release
@@ -48,24 +40,9 @@ image::images/db-press.png[width=768]
 image::images/finos-press.png[width=768]
 
 
+
 [background-color="#030a08"]
 == Overview
-[%step]
-* Help large orgs to understand their technical landscape
-* What things are, what they do, how they connect, who works on them and how they are changing
-* Widely used by diverse set of users
-
-[.notes]
---
-* historically current state focus
-* future state flows, app functions, change impact
-* PM's, analysts, devs, execs
-
---
-
-
-[background-color="#030a08"]
-=== Approach
 _An open approach to enterprise architecture_
 
 [%step]
@@ -74,6 +51,17 @@ _An open approach to enterprise architecture_
 * Waltz embraces a collaborative model 
 * Promote standardisation
 * Perhaps allow cross bank standards
+
+
+[background-color="#030a08"]
+=== Approach
+[%step]
+* Help large orgs to understand their technical landscape
+* What things are, what they do, how they connect, who works on them and how they are changing
+* Widely used by diverse set of users
+
+
+
 
 
 [background-color="#222"]
@@ -87,13 +75,6 @@ _An open approach to enterprise architecture_
 * SDLC & KPI's / KRI's
 ** Platform adoption, standard adherence
 
-[.notes]
---
-* Auth sources / Right-Sourcing
-* Regulators wanting evidence understanding our _entire_ estate
-* SDLC - Waltz part of the go/no-go prod checks (no flows?, no bookmarks?, no attestations?)
-* Core platform simplification / reducing complexity, enabled by common taxonomies
---
 
 
 
@@ -107,13 +88,6 @@ _An open approach to enterprise architecture_
 ** Servers, Databases, Software & Licenses
 * Opinionated model allows us to do more 'out of the box'
 
-[.notes]
---
-* Strong data models ease reporting & coding
-* Perils of 'define your own data model'
-* Software & Licenses : OSS , license risk etc
---
-
 
 [background-color="#222"]
 === Customisation
@@ -123,7 +97,6 @@ _An open approach to enterprise architecture_
 ** Assessments
 ** Metrics
 ** Surveys
-** Notes
 
 
 [background-color="#222"]
@@ -148,11 +121,6 @@ Taxonomies
 
 image::images/taxonomies.png[width=758]
 
-[.notes]
--- 
-* note the decomm info 
---
-
 
 [background-color="#252525"]
 === !
@@ -160,12 +128,6 @@ image::images/taxonomies.png[width=758]
 Drawing flow diagrams
 
 image::images/diag.gif[width=512]
-
-[.notes]
---
-* builds upon point to point flows
-* end up with a diagram 'BOM' so can be x-referenced
---
 
 
 == Open Source
@@ -208,12 +170,6 @@ IMPORTANT: _Observations are mine, **not** those of my client_
 * Usually extremely easy to onboard and use
 * FINOS offer support and guidance
 
-[.notes]
---
-* some of these concerns alleviated by increased user base
-* distirbuted dev
-** from single dev, to team, to multiple locs, to multiple companies, to everyone wfh!
---
 
 == Contributing
 
