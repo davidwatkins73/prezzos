@@ -1,0 +1,216 @@
+= Waltz 
+:icons: font
+:source-highlighter: highlightjs
+
+
+
+[.centered]
+== Enterprise Architecture on the Wire
+image::images/waltz_badge_negative_bw_300px.png[width=128]
+
+
+
+== Topics
+* Part 1: Waltz overview
+* Part 2: Open Source challenges / rewards
+
+
+
+== Background
+[%step]
+* Waltz: an Enterprise Information System
+* Approx. 6 yrs old (started as pure OSS)
+* 3-4 devs + 1 analyst
+[%step]
+** incl. NWM 
+* Transitioned to FINOS earlier this year
+* Several thousand users in DB
+* Gaining users in other financial institutions and other industries
+
+[.notes]
+--
+* Inspired by a tool developed in RBC which proved the concept/gap
+* Currently _Incubating_ in FINOS, undergoing _Activation_
+* 5K apps registered
+* Tens of thousands of flows
+--
+
+
+=== NWM Press Release
+image::images/nwm-press.png[width=768]
+
+
+=== Deutsche Bank Press Release
+image::images/db-press.png[width=768]
+
+
+=== FINOS Press Release
+image::images/finos-press.png[width=768]
+
+
+
+== Overview
+[%step]
+* Catalogue of the enterprise technical portfolio / landscape
+* Mapping current state and increasingly looking towards future state
+* Widely used by diverse set of users
+
+[.notes]
+--
+* historically current state focus
+* future state flows, app functions, change impact
+* PM's, analysts, devs, execs
+--
+
+
+
+[background-color="#222"]
+=== Opinionated
+[%step]
+* Strict data model
+[%step]
+** Applications, Taxonomies, Data flows & Data types
+** Organisational Units, People, Change Initiatives & Roadmaps
+** Servers, Databases, Software & Licenses
+* As _opposed_ to weaker schemas:
+    ** Entity / Attribute / Relationship
+
+[.notes]
+--
+* Strong data models ease reporting & coding
+* Perils of 'define your own data model'
+* Software & Licenses : OSS , license risk etc
+--
+
+
+[background-color="#222"]
+=== Customisation
+[%step]
+* _...but_ we do have some extension capabilities
+[%step]
+** Assessments
+** Metrics
+** Surveys
+** Notes
+
+
+[background-color="#222"]
+=== Aggregate views
+* Dynamic groups based on traits
+* Ad hoc group creation
+* Automated groups
+
+
+[background-color="#252525"]
+=== !
+
+Basic flows
+
+image::images/flows.png[width=758]
+
+
+[background-color="#252525"]
+=== !
+
+Taxonomies
+
+image::images/taxonomies.png[width=758]
+
+[.notes]
+-- 
+* note the decomm info 
+--
+
+
+[background-color="#252525"]
+=== !
+
+Drawing flow diagrams
+
+image::images/diag.gif[width=512]
+
+[.notes]
+--
+* builds upon point to point flows
+* end up with a diagram 'BOM' so can be x-referenced
+--
+
+
+== Approach
+Embodies an open approach to enterprise architecture
+
+[%step]
+* Permissive 
+** Better to have many eyes / crowd sourced data than to have a few guardians
+* Promote standardisation
+** Perhaps allow cross bank standards
+
+
+[background-color="#222"]
+=== Uses
+
+[%step]
+* App rationalisation, function decomms, migrations, roadmaps
+* Data architecture: lineage (BCBS), auth sources
+* (Regulatory) Compliance
+** GDPR, Records Management, Legal Holds
+* SDLC & KPI's / KRI's
+** Platform adoption, standard adherence
+
+[.notes]
+--
+* Auth sources / Right-Sourcing
+* Regulators wanting evidence understanding our _entire_ estate
+* SDLC - Waltz part of the go/no-go prod checks (no flows?, no bookmarks?, no attestations?)
+* Core platform simplification / reducing complexity, enabled by common taxonomies
+--
+
+
+== Open Source
+Open Source & the Enterprise
+
+IMPORTANT: _Observations are mine, **not** those of my client_
+
+
+=== Basics 
+* If you want people to adopt, shift to open dev
+[%step]
+** _Use_ accessible issue trackers
+** Don't want your project commit log to be  'just a bunch of stuff that happened'
+** Isolate any non OSS components (e.g. databases)
+
+
+=== Challenges
+[%step]
+* Test data is hard!
+* Need to be v. careful with commits 
+** Extra review step for data leakage concerns
+* IP concerns extend to design docs and issue descriptions
+
+
+=== Challenges (cont.)
+[%step]
+* Project pressures
+[%step]
+** Long term roadmap vs short term tactical needs of funding company
+** Stakeholders not always sympathetic to doing the 'right thing' for everyone
+* Lack of commercial support
+** Barrier to adoption by smaller orgs
+
+
+=== Support
+[%step]
+* Abundance of very good project support:
+** Building, Testing
+** Quality, Security
+* Usually extremely easy to onboard and use
+* FINOS offer support and guidance
+
+[.notes]
+--
+* some of these concerns alleviated by increased user base
+* distirbuted dev
+** from single dev, to team, to multiple locs, to multiple companies, to everyone wfh!
+--
+
+== Thanks for listening
