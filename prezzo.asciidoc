@@ -136,7 +136,7 @@ Open Source & the Enterprise
 IMPORTANT: _Observations are mine, **not** those of my client_
 
 
-=== Basics 
+=== Fundamentals 
 * If you want people to adopt, shift to open dev
 [%step]
 ** _Use_ accessible issue trackers
