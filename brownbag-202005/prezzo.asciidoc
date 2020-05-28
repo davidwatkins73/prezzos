@@ -13,7 +13,6 @@ image::images/logo.png[xwidth=128]
 * Part 2: Open Source challenges / rewards
 
 
-
 [background-color="#050712"]
 == Background
 [%step]
