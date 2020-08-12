@@ -1,0 +1,160 @@
+= Waltz 
+:icons: font
+:source-highlighter: highlightjs
+
+[.centered]
+== !
+image:images/finos-intro.png[xwidth=128]
+
+ 
+[background-color="#140d06"]
+== Topics
+* Team
+* History
+* Uses
+* Future 
+* Getting Involved
+
+[background-color="#140d06"]
+== Team
+
+* image:images/mark.jpeg[width=64] Mark Guerriero
+
+* image:images/kamran.jpeg[width=64,valign=bottom] Kamran Saleem 
+
+* image:images/dave.jpeg[width=64] Dave Watkins 
+
+* image:images/jess.jpeg[width=64] Jessica Woodland-Scott 
+ 
+
+
+[background-color="#050712"]
+== Background
+[%step]
+* Waltz: an Enterprise Information System
+* Approx. 6 yrs old (started as pure OSS)
+* 3-4 devs + 1 analyst
+* Transitioned to FINOS earlier this year
+* Gaining users in other financial institutions and other industries
+
+
+[background-color="#050712"]
+=== NWM Press Release
+image::images/nwm-press.png[width=768]
+
+
+[background-color="#050712"]
+=== Deutsche Bank Press Release
+image::images/db-press.png[width=768]
+
+
+[background-color="#050712"]
+=== FINOS Press Release
+image::images/finos-press.png[width=768]
+
+
+
+[background-color="#030a08"]
+== Overview
+_An open approach to enterprise architecture_
+
+[%step]
+* Widespread frustration with centralised architecture
+** Incomplete, disjoint, adhoc datasets 
+* Waltz embraces a collaborative, many-eyes model 
+* Promote standardisation
+* Perhaps allow cross bank standards
+
+
+[background-color="#030a08"]
+=== Approach
+[%step]
+* Help large orgs to understand their technical landscape
+* What things are, what they do, how they connect, who works on them and how they are changing
+* Widely used by diverse set of users
+
+
+
+[background-color="#222"]
+== Ease of adoption
+
+[%step]
+* Deutsche Bank has > 15,000 active users
+* >2,500 user driven changes per month
+
+
+[background-color="#222"]
+== Benefits
+
+[%step]
+* Flows & Lineage
+** Regulatory / Audit aid
+* SDLC Controls
+** Release controls for arch health
+* App Rationalisation
+** Alignment to enterprise taxonomies
+
+
+[background-color="#222"]
+== Benefits (cont)
+
+[%step]
+* Surveys, supporting:
+** Records Management
+** Legal Holds
+** ARchitecture Governance
+** Cloud Migration
+* Documenting Roadmaps
+
+
+
+
+== Open Source
+Open Source & the Enterprise
+
+
+=== Fundamentals 
+* If you want people to adopt, shift to open dev
+[%step]
+** _Use_ accessible issue trackers
+** Don't want your project commit log to be  'just a bunch of stuff that happened'
+** Isolate any non OSS components (e.g. databases)
+
+
+=== Challenges
+[%step]
+* Realistic sample data difficult to produce
+* Need to be v. careful with commits 
+** Extra review step for data leakage concerns
+* IP concerns extend to design docs and issue descriptions
+
+
+=== Challenges (cont.)
+[%step]
+* Project pressures
+[%step]
+** Long term roadmap vs short term tactical needs of funding company
+** Stakeholders not always sympathetic to doing the 'right thing' for everyone
+* Lack of commercial support
+** Barrier to adoption by smaller orgs
+
+
+=== Leverage the OSS Ecosystem
+[%step]
+* Abundance of very good project support:
+** Building, Testing
+** Quality, Security
+* Usually extremely easy to onboard and use
+* FINOS offer support and guidance
+
+
+== Contributing
+
+[%step]
+- Contributions welcome!
+- https://github.com/finos/waltz 
+  - Good first issues tagged `Small Change` icon:tags[]
+- Communication primarily through GH Issues
+
+
+== Thanks for listening

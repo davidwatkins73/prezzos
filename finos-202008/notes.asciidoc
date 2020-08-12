@@ -1,0 +1,59 @@
+= Waltz Brownbag
+
+==  Background 
+
+* Inspired by a tool developed in RBC which proved the concept/gap
+* Currently _Incubating_ in FINOS, undergoing _Activation_
+* 5K apps registered
+* Tens of thousands of flows
+* Interest from public transport, automobile industries and smaller financial institutions
+
+
+== Overview
+
+* Dissatisfied with current tools
+* Data may be controlled but was
+** out of date
+** incomplete
+** not cross referenced
+** scattered across stale sharepoints / excel / access etc
+* Wanted to drive adoption of common standards and taxonomies
+* cross referencing exposes gaps and opportunities to combine data in new ways 
+
+
+== Approach
+
+* Capture information in consistend format
+* Narrowing the problem space
+* historically current state focused, increasingly being used to map target state
+* Users include developers, analysts, project managers, executives
+
+
+== Uses
+
+* Auth sources / Right-Sourcing
+* Regulators wanting evidence understanding our _entire_ estate
+* SDLC - Waltz part of the go/no-go prod checks (no flows?, no bookmarks?, no attestations?)
+* Core platform simplification / reducing complexity, enabled by common taxonomies
+
+
+== Model 
+* Strong data models ease reporting & coding
+* Perils of 'define your own data model'
+* Software & Licenses : OSS , license risk etc
+
+
+== Customisation
+* Flexibility in the model is offered by specific extension entities
+
+
+== Grouping
+* Pivot the data using taxonomies
+
+
+== Screenshots
+
+* note the decomm info
+* Flow fiagram 
+** builds upon point to point flows
+** end up with a diagram 'BOM' so can be x-referenced and becomes 'just another group'

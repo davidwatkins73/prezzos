@@ -1,0 +1,92 @@
+= Waltz chat
+
+4 3 4 4 4 6
+
+== Agenda
+Presentation: 23-25 mins with live-demo aspects & possible github browse
+Q&A: 
+    
+
+== Meet the team  (4 mins)
+DW: dave to upll together intro slide (headshots from linkedin)
+
+Bios for each person
+The features team members support or have delivered
+The feature they've delivered /supported that's had most impact
+- JWS: Favourites? 
+- MG: SDLC Control (or too DB specific)? Thinking enhance data completeness here / provides teeth to reg asks?
+- KS:
+- DW: The Selector mechanism
+
+== History of Waltz (3 mins)
+
+**Format: Prezzo**
+**Dave Watkins**
+
+* Inception
+** RBC formed the outline
+** Developed as an opensource app from the outset (6 yrs)
+
+* Addressing perceived gap 'Architecture for everyone'
+** Not a classic architecture tools (togaf etc)
+
+* Major adopters
+** Adoption by Deutsche
+** Adoption by RBS
+
+
+== What, exactly, is Waltz (4 mins)
+**Format: Demo**
+**Mark Guerriero, Dave Watkins**
+
+* Open architecture information (need to know is bad!)
+* Belief in many-eyes principal
+* Attempts to fix the stale incomplete data problem
+** ...but at a cost of possibly incorrect data points - transparency to help fix
+* Bring your own taxonomies which you use to describe the estate
+* Surveys to fill in the detail
+* Metrics to track KPI's and KRI's
+
+
+== Uses of Waltz  (4 mins)
+**Mark Guerriero**
+
+How the feature set is used to deliver business benefit
+
+* Flows & Lineage
+* Describing technology estate
+* App rationalisation
+* Tech portfolios
+* Surveys
+* SDLC controls
+
+== Development process (4 mins)
+**Kamran Saleem**
+* Setup - public fork + internal fork, push changes to public then merge to upstream
+* Code reviews & (**Indie Bank IP Reviews - data leakage**)
+* Running vulnerability and license scanners (typically do lib upgrades at beginning of rel cycles)
+* Conventions, some of which are enforced by linters and arch Unit 
+
+***Challenges of being an open-source app within a bank***
+**Kamran Saleem**
+* Feature set (bespoke for bank vs general purpose)
+* Up and running - data loaders etc (perhaps touch on readonly datasets e.g. org units / people and editable sets)
+
+
+== How to adopt, how to get involved  (6 mins)
+**Format: Github repo walkthru'**
+**Jessica Woodland-Scott**
+* Inviting contributors 
+** Not just code, but reviewing designs and providing feedback
+* Personal experiences of understanding the codebase 
+* High level comms: Pointers to blog / screencasts
+* Low level: remains on gh issues / milestones
+
+=== Futures
+**Format: discussion / pointers to design docs**
+**Jessica Woodland-Scott to lead**
+
+* JWS: Surveys
+* JWS: Roadmaps / Change sets -  describing future state changes
+* JWS: Decomm / Commisssions
+* JWS: Technicals: migrating from AngularJS to next platform 
