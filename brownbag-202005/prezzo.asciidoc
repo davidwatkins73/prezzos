@@ -10,6 +10,7 @@ image::images/logo.png[xwidth=128]
 [background-color="#140d06"]
 == Topics
 * Part 1: Waltz overview
+* Part 1: Waltz overview
 * Part 2: Open Source challenges / rewards
 
 
